@@ -10,4 +10,4 @@ SELECT
     LOWER(email) AS email,
     phone_number
 
-FROM {{source('salesforce', 'customers')}}
+FROM {{ source('salesforce', 'customers') }}
