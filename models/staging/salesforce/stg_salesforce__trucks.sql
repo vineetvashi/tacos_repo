@@ -45,4 +45,4 @@ SELECT DISTINCT -- remove duplicates
     
     opening_date
 
-FROM {{source('salesforce', 'trucks')}}
+FROM {{ source('salesforce', 'trucks') }}
